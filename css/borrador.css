@@ -1,0 +1,134 @@
+.logo{
+    z-index:1; width: 25%; height: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.logo1{
+    z-index:1; width: 25%; height: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.headerPokemon{
+    background-color: #428bca;
+    padding: 2rem;    
+}
+
+/*NAV-BAR*/
+.nav-item{
+    font-style: rgb(204, 255, 0);
+}
+
+.nav-item:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 140, 202);
+    font-weight: bolder;
+    border-radius: 2px;
+    
+}
+
+/* BIENVENIDA*/
+.welcomeW{
+    padding: 3rem;
+    letter-spacing: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.line {
+    position: relative;
+    top:50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+.anim-typewriter {
+    animation: typewriter 4s steps(31) 0s 1 normal both,
+    blinkTextCursor 1000ms steps(31) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 31em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(67, 168, 4, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+/*BODY*/
+.bodycito{
+    background-color: rgb(248, 248, 248);
+}
+
+/*MAIN*/
+.maincito{
+    background-color: rgb(255, 255, 255)
+}
+
+.homeWallpaper{
+    background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*PAGINA INICIO*/
+.bloque1{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.imagen1{
+    z-index: 1; width: 50%; height: 100%;
+}
+
+.imagen2{
+    z-index: 1; width: 30%; 
+
+}
+
+/*PAGINA INICIO - REGISTRO*/
+input{
+    border-radius: rgb(66, 139, 202) 5px;
+    border-color: rgb(66, 139, 202);
+}
+
+.registro{
+    justify-items: center;
+    align-items: center;
+}
+
+.bloque2{
+    height: 100px;
+}

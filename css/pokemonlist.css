@@ -1,0 +1,128 @@
+/* HEADER */
+.imagen2{
+    z-index: 2; width: 200px; height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pokeball{
+    height: 3rem;
+    padding-top: 1rem;
+}
+.img-pokemons{
+    align-items: center;
+    height: 50%;
+}
+.name-pokemons{
+    text-align:end;
+    padding: 5px;
+    font-size: 1.6rem;
+}
+.button2{
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 25%;
+    background:cornflowerblue;
+	color: #fff;
+    border: none;
+}
+.headerPokemon{
+    background-color: #428bca;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+.caja{
+    margin: 15px auto;        
+    border:1px solid cornflowerblue;
+    border-radius: 0.8rem;
+    height:40px;
+    width: 230px;
+    overflow: hidden;
+    position:relative;
+    font-size: 20px;
+}
+/* Hasta los 576px como maximo la medida sera*/
+@media (max-width:576px){
+    .logo{
+        z-index:1; width: 100%; height: 100%;
+    }
+}
+
+/* Desde los 576px como minimo hacia arriba la medida sera*/
+@media (min-width:576px){
+    .logo1{
+        z-index:1; width: 100%; height: 100%;
+    }
+}
+
+/* Desde los 768px como minimo hacia arriba la medida sera*/
+@media (min-width:768px){
+    .logo1{
+        z-index:1; width: 192px; height: 70px;
+    }
+}
+
+.bloqueLogo{
+    text-align: center;
+    align-items: center;  
+    justify-content: start;
+    display: flex;      
+}
+
+.bloqueImagen{
+    text-align: center;
+    align-items: center;  
+    justify-content: end;
+    display: flex;      
+}
+
+/*NAV-BAR*/
+@media (max-width:768px){
+    .nav-link{
+        text-align: start;
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width:768px){
+    .nav-link{
+        width: 10rem;
+        text-align: center;
+    }
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 140, 202);
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+.icoNav{
+    z-index:1; width: 40px; height: 40px;
+}
+
+.iconBloque{
+    text-align: center;
+    align-items: center;  
+    justify-content: end;
+    display: flex;
+}
+
+.iconBloque2{
+    text-align: center;
+    align-items: center;  
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+/* BODY */
+.fondoBody{
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

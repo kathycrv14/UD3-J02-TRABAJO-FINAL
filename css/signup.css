@@ -1,0 +1,167 @@
+/* HEADER */
+.imagen2{
+    z-index: 2; width: 200px; height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerPokemon{
+    background-color: #428bca;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* Hasta los 576px como maximo la medida sera*/
+@media (max-width:576px){
+    .logo{
+        z-index:1; width: 100%; height: 100%;
+    }
+}
+
+/* Desde los 576px como minimo hacia arriba la medida sera*/
+@media (min-width:576px){
+    .logo1{
+        z-index:1; width: 100%; height: 100%;
+    }
+}
+
+/* Desde los 768px como minimo hacia arriba la medida sera*/
+@media (min-width:768px){
+    .logo1{
+        z-index:1; width: 192px; height: 70px;
+    }
+}
+
+.bloqueLogo{
+    text-align: center;
+    align-items: center;  
+    justify-content: start;
+    display: flex;      
+}
+
+.bloqueImagen{
+    text-align: center;
+    align-items: center;  
+    justify-content: end;
+    display: flex;      
+}
+
+/* MAIN */
+
+
+/* SIGN UP */
+.formulario-login{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionForm{
+    border: 1px;
+    border-radius: 10px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: rgb(255, 255, 255);
+}
+
+.nombreLogin{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-bottom: 4rem;
+    letter-spacing: 5px;
+}
+
+.sectionLabel{
+    text-align: start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.labelDatos{
+    color: rgb(255, 255, 255);
+}
+
+.inputDatos{
+    border: 1px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(193, 214, 254);
+    border-color:cornflowerblue ;    
+}
+
+.btnLogin{
+    padding: 0.5rem;
+    border: 1px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* background-color: rgb(68, 140, 202);
+    color: rgb(255, 255, 255); */
+    width: 100%;
+}
+
+.btnLogin:hover{
+    background-color: rgb(255, 213, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;   
+}
+
+/* FONDO */
+/* Hasta los 576px como maximo la medida sera*/
+@media (max-width:576px){
+    .fondoBodyLogin{
+        background-image: url(../img/wallpaper2.jpg);
+        background-position: 100%;
+        background-size: cover;
+        min-height: 100vh;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-repeat: no-repeat;
+    }
+    .sectionForm{
+        width: 80%;
+    }    
+
+}
+
+/* Desde los 577px como minimo hacia arriba la medida sera*/
+@media (min-width:577px){
+    .fondoBodyLogin{
+        background-image: url(../img/wallpaper3.jpg);
+        background-position: 100%;
+        background-size: cover;
+        min-height: 100vh;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-repeat: no-repeat;
+    }
+    .sectionForm{
+        width: 80%;
+    }
+}
+
+/* Desde los 992px como minimo hacia arriba la medida sera*/
+@media (min-width:992px){
+    .fondoBodyLogin{
+        background-image: url(../img/wallpaper4.jpg);
+        background-position: 100%;
+        background-size: cover;
+        min-width: 100vw;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-repeat: no-repeat;
+    }
+    .sectionForm{
+        width: 50%;
+    }
+}    
